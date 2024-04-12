@@ -1,0 +1,15 @@
+# Dependências Node.js
+node_modules/
+
+# Arquivos de ambiente
+.env
+
+# Diretórios de construção
+/dist/
+/build/
+
+# Arquivos específicos do macOS
+.DS_Store
+
+# Configurações do Visual Studio Code
+.vscode/
