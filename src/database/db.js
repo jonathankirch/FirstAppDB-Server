@@ -7,7 +7,7 @@ const secret = process.env.SECRET_KEY
 const connectDataBase = async () => {
   try{
     await mongoose 
-      .connect(`mongodb+srv://kirchdead:${secret}@firstmongodb.f9mrjmp.mongodb.net/?retryWrites=true&w=majority&appName=FirstMongoDB`)
+      .connect(`mongodb+srv://kirchdead:${secret}@firstappdb.quzfipz.mongodb.net/?retryWrites=true&w=majority&appName=FirstAppDB`)
     console.log('Banco de dados conectado com sucesso! 🚀')
   }
   catch(error){
